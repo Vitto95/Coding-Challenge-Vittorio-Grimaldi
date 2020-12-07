@@ -1,0 +1,80 @@
+            body {
+                background-image: url('background.jpg');
+                background-size: cover;
+            }
+            /*Immagine di sfondo dimensionata con cover*/
+            
+            .container {
+                width: 50%;
+                border: 1px solid;
+                margin: 4% auto 6%;
+                padding: 50px;
+                border-radius: 30px;
+                background-color: black;
+                opacity: 0.85;
+                /*Leggera trasparenza*/
+            }
+            
+            #logo {
+                display: block;
+                margin: auto;
+                width: 20%;
+                padding: 10px;
+            }
+            
+            p {
+                font-size: 25px;
+                color: rgb(0, 255, 0);
+                text-align: center;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            
+            .text {
+                color: rgba(255, 255, 255, 0.774);
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            
+            nav {
+                display: flex;
+                justify-content: center;
+                padding: 10px;
+                background-color: rgb(0, 255, 0);
+            }
+            
+            button {
+                display: inline-block;
+                margin: 1px;
+            }
+            
+            #battery-status-gino {
+                background-color: rgba(255, 166, 0, 0.842);
+                width: 250px;
+                border-radius: 5%;
+            }
+            
+            #battery-status-mike {
+                background-color: rgb(17, 197, 17);
+                width: 400px;
+                border-radius: 5%;
+            }
+            
+            #battery-status-fede {
+                background-color: red;
+                width: 100px;
+                border-radius: 5%;
+            }
+            
+            .percentuale {
+                visibility: hidden;
+            }
+            /*Per nascondere il testo, e far vedere solo in colore di sfondo*/
+            
+            .info {
+                margin: 10px;
+            }
+            
+            .text-title {
+                font-size: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: white;
+            }
